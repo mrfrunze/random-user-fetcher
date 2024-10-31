@@ -3,20 +3,11 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import FetchUserButton from './components/FetchUserButton';
 import UserCard from './components/UserCard';
+import { UserData } from './utils/UserData '
 import LoadingSpinner from './components/LoadingSpinner';
 import { useState } from 'react';
 import { showError } from './components/ErrorToast';
 import { delay } from './utils/delay';
-
-type UserData = {
-  name: { first: string; last: string };
-  email: string;
-  picture: { large: string };
-  location: {
-    city: string;
-    country: string;
-  };
-}
 
 function App() {
 
