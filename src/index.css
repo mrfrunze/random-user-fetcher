@@ -6,6 +6,7 @@ body {
   flex-direction: column;
   min-width: 320px;
   min-height: 100vh;
+  background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
 }
 
 h1 {
